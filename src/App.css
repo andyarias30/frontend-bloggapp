@@ -22,6 +22,15 @@ header > ul >li {
 }
 header > ul >li:hover{
   background-color: #111;
+  text-align: center;
+  padding: .5em;
+}
+
+nav > ul {
+display: flex;
+list-style: none;
+justify-content: space-evenly;
+align-items: center;
 }
 
 header > ul > li > a {
